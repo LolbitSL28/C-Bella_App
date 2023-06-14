@@ -72,7 +72,7 @@ nav {
   
   #indicator {
     position: absolute;
-    left: 5%;
+    left: 9%;
     bottom: 0;
     width: 30px;
     height: 3px;
@@ -82,7 +82,7 @@ nav {
   }
   
   nav a:hover {
-    color: #454545;
+    color: #622448;
   }
   
   nav a:hover:before,
@@ -95,12 +95,12 @@ nav {
   }
   
   nav a:nth-child(2):hover ~ #indicator {
-    left: 34%;
+    left: 39%;
     background: linear-gradient(130deg, #00e2ff, #89ff00);
   }
   
   nav a:nth-child(3):hover ~ #indicator {
-    left: 70%;
+    left: 75%;
     background: linear-gradient(130deg, purple, palevioletred);
   }
 
