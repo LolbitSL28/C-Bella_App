@@ -10,6 +10,7 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { DealsPageComponent } from './deals-page/deals-page.component';
 import { DealsListComponent } from './deals-list/deals-list.component';
 import { DealsDetailsComponent } from './deals-details/deals-details.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DealsDetailsComponent } from './deals-details/deals-details.component';
     StartPageComponent,
     DealsPageComponent,
     DealsListComponent,
-    DealsDetailsComponent
+    DealsDetailsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
