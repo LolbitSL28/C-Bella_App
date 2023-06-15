@@ -7,6 +7,7 @@ import { CarruselComponent } from './carrusel/carrusel.component';
 import { ProductsPageComponent } from './products-page/products-page.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { StartPageComponent } from './start-page/start-page.component';
+import { DealsPageComponent } from './deals-page/deals-page.component';
 
 @NgModule({
   declarations: [
@@ -15,13 +16,15 @@ import { StartPageComponent } from './start-page/start-page.component';
     CarruselComponent,
     ProductsPageComponent,
     ProductListComponent,
-    StartPageComponent
+    StartPageComponent,
+    DealsPageComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: '', component: StartPageComponent },
-      { path: 'products/',component:ProductsPageComponent}
+      { path: 'products',component:ProductsPageComponent},
+      { path: 'deals',component:DealsPageComponent},
     ]),
   ],
   providers: [],
