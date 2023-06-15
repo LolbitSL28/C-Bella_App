@@ -8,6 +8,8 @@ import { ProductsPageComponent } from './products-page/products-page.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { StartPageComponent } from './start-page/start-page.component';
 import { DealsPageComponent } from './deals-page/deals-page.component';
+import { DealsListComponent } from './deals-list/deals-list.component';
+import { DealsDetailsComponent } from './deals-details/deals-details.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { DealsPageComponent } from './deals-page/deals-page.component';
     ProductsPageComponent,
     ProductListComponent,
     StartPageComponent,
-    DealsPageComponent
+    DealsPageComponent,
+    DealsListComponent,
+    DealsDetailsComponent
   ],
   imports: [
     BrowserModule,
